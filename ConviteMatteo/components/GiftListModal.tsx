@@ -9,7 +9,7 @@ const GiftListModal: React.FC<GiftListModalProps> = ({ onClose }) => {
   const giftItems = [
     { label: 'Tamanho de Roupa', value: '1 Ano' },
     { label: 'Sugestão', value: 'Brinquedos' },
-    { label: 'Calçados', value: '12 CM (Tamanho do pé)' },
+    { label: 'Calçados', value: '20/21' },
   ];
 
   return (
