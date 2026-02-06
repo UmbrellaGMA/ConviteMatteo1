@@ -10,13 +10,12 @@ const GiftListModal: React.FC<GiftListModalProps> = ({ onClose }) => {
     { label: 'Tamanho de Roupa', value: '1 Ano' },
     { label: 'Sugestão', value: 'Brinquedos' },
     { label: 'Calçados', value: '12 CM (Tamanho do pé)' },
-    { label: 'Fralda', value: 'Tamanho G' },
   ];
 
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-fade-in">
       <div className="bg-[#2a1a0a] border-2 border-amber-500 rounded-3xl p-8 max-w-sm w-full relative shadow-[0_0_50px_rgba(212,175,55,0.2)]">
-        <button 
+        <button
           onClick={onClose}
           className="absolute top-4 right-4 text-amber-500 hover:text-amber-400 text-xl"
         >
@@ -40,7 +39,7 @@ const GiftListModal: React.FC<GiftListModalProps> = ({ onClose }) => {
           ))}
         </div>
 
-        <button 
+        <button
           onClick={onClose}
           className="w-full mt-8 py-3 rounded-full bg-amber-600 text-white font-bold uppercase tracking-widest text-sm hover:bg-amber-500 transition-colors"
         >
